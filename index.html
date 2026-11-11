@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body onload="addTabFocus()">
+  <header>
+    <h1>My Interactive Photo Gallery</h1>
+  </header>
+  <main>
+    <div id="image">Hover over or tab to an image below to display it here.</div>
+    <div class="gallery">
+      <img class="preview" src="images/pexels-2151425155-39506029.jpg" alt="2 women in a garden"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/pexels-delot-38151730.jpg" alt="a beautiful city"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/pexels-ismail-othman-2157598228-38922241.jpg" alt="the only tree standing with hope"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/pexels-magaly-taboada-1529426891-39254067.jpg" alt="2 women in the stairs"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/pexels-mesut-yalcin-1233429888-39731077.jpg" alt="Ocean view"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+      <img class="preview" src="images/pexels-virginia-brilli-2161668901-37751865.jpg" alt="shores and rocks"
+           onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+  </main>
+</body>
+</html>
